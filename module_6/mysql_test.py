@@ -1,7 +1,7 @@
 import mysql.connector
 from mysql.connector import Error
 
-# Your database configuration
+# my database configuration
 db_config = {
     'host': 'localhost',
     'user': 'levonte.abercrombie@gmail.com',
