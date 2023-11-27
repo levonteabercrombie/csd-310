@@ -46,8 +46,8 @@ if db:
 
         # Query 3: Select movie names for movies with a run time of less than two hours
         query3 = "SELECT film_name, film_runtime FROM film WHERE film_runtime < 120;"
-        format_spec3 = "Film Name: {}\nRuntime: {}"
-        execute_query(cursor, query3, "Short Film", format_q1)
+        format_q3 = "Film Name: {}\nRuntime: {}"
+        execute_query(cursor, query3, "Short Film", format_q3)
 
         # Query 4: Get a list of film names and directors ordered by director
         query4 = "SELECT film_name, film_director FROM film ORDER BY film_director;"
